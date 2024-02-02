@@ -82,8 +82,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Version.rc">
-      <Filter>Sources</Filter>
-    </ResourceCompile>
+    <ResourceCompile Include="..\src\version.rc" />
   </ItemGroup>
 </Project>

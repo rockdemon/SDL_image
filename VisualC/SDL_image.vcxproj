@@ -139,7 +139,7 @@
       </HeaderFileName>
     </Midl>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\..\include;external\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\include;external\include;%(AdditionalIncludeDirectories);..\..\SDL\Include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DLL_EXPORT;_DEBUG;WIN32;_WINDOWS;USE_STBIMAGE;LOAD_AVIF;LOAD_AVIF_DYNAMIC="libavif-16.dll";LOAD_BMP;LOAD_GIF;LOAD_JPG;LOAD_LBM;LOAD_PCX;LOAD_PNG;LOAD_PNM;LOAD_QOI;LOAD_SVG;LOAD_TGA;LOAD_TIF;LOAD_TIF_DYNAMIC="libtiff-5.dll";LOAD_WEBP;LOAD_WEBP_DYNAMIC="libwebp-7.dll";LOAD_WEBPDEMUX_DYNAMIC="libwebpdemux-2.dll";LOAD_XCF;LOAD_XPM;LOAD_XV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
